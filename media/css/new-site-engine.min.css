@@ -2145,7 +2145,8 @@ dfn, em {
 }
 
 .grey-text.text-lighten-3 {
-  color: #eee !important
+  color: #eee !important;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .grey.lighten-2 {
@@ -10849,7 +10850,7 @@ footer {
   margin-top: 35px
 }
 
-.fa-envelope, .fa-github, .fa-steam, .fa-stack-overflow, .fa-twitter, .fa-microphone {
+.fa-envelope, .fa-github, .fa-steam, .fa-stack-overflow, .fa-twitter, .fa-microphone, .fa-discord {
   color: silver;
   margin-left: 15px;
   transition: all .5s ease .2s
@@ -10873,6 +10874,10 @@ footer {
 
 .fa-github:hover {
   color: #333
+}
+
+.fa-discord:hover {
+  color: #7289da
 }
 
 .fa-steam:hover {
